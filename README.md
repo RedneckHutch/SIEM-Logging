@@ -1,10 +1,11 @@
 # SIEM-Logging
 
+- [Window Event Collector](#Window-Event-Collector)
 - [Window Event Logging](#Window-Event-Logging)
 - [SYSMON-Logging](#SYSMON)
 - [DNS Logging](#DNS-Logging)
-- [Resources](#Resources)
 
+## Window-Event-Collector
 ## Window-Event-Logging
 List out the System audit policy<br />
 Command: AuditPol /get /category:* <br /><br />
