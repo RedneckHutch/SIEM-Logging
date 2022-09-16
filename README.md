@@ -6,6 +6,7 @@
 - [Resources](#Resources)
 
 ## Window-Event-Logging
+AuditPol /get /category:*
 ## SYSMON-Logging
 ## DNS-Logging
 ## Resources
