@@ -6,7 +6,7 @@
 - [DNS Logging](#DNS-Logging)
 
 ## Window-Event-Collector
-### What is a window event collect
+Test
 ## Window-Event-Logging
 List out the System audit policy<br />
 Command: AuditPol /get /category:* <br /><br />
