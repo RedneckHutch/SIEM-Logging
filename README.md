@@ -6,7 +6,12 @@
 - [DNS Logging](#DNS-Logging)
 
 ## Window-Event-Collector
-Test
+Window Event Collectors also known as WEC allows administrators to get events from remote computers and store them in a local event log on the collector computer. The data that has been forwarded to the collector are saved on the collector, as if they were still stored on the orginating host but additional information is added regarding event forwarding.<br /><br />
+
+Why should you use a window event collector? Has your organization ever tasked with gathering window event logs from a large number of assets? Or perhaps you are performing an incident response investigation and need to gather all the logs to a centralized location? This is where the WEC shines! As more and more agents are being installed on endpoints you start running into a multitude of issue such as peformance issues or event agents just not function correctly.
+
+
+
 ## Window-Event-Logging
 List out the System audit policy<br />
 Command: AuditPol /get /category:* <br /><br />
@@ -33,6 +38,7 @@ what you need. Resource from (www.malwarearchaeology.com)
     </tr>
 </table>
 
+https://learn.microsoft.com/en-us/windows/win32/wec/windows-event-collector
 ## SYSMON-Logging
 ## DNS-Logging
 ## Resources
@@ -43,6 +49,14 @@ what you need. Resource from (www.malwarearchaeology.com)
         </td>
         <td>
             Description pending
+        </td>
+    </tr>
+        <tr>
+        <td>
+            <a href="https://learn.microsoft.com/en-us/windows/win32/wec/windows-event-collector" target="_blank">Window Event Collector</a>
+        </td>
+        <td>
+            Reference to Microsoft's documentation regarding window event collectors.
         </td>
     </tr>
 </table>
