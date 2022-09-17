@@ -8,7 +8,7 @@
 ## Window-Event-Collector
 Window Event Collectors also known as WEC allows administrators to get events from remote computers and store them in a local event log on the collector computer. The data that has been forwarded to the collector are saved on the collector, as if they were still stored on the orginating host but additional information is added regarding event forwarding.<br /><br />
 
-Why should you use a window event collector? Has your organization ever tasked with gathering window event logs from a large number of assets? Or perhaps you are performing an incident response investigation and need to gather all the logs to a centralized location? This is where the WEC shines! As more and more agents are being installed on endpoints you start running into a multitude of issue such as peformance issues or event agents just not function correctly.
+Why should you use a window event collector? Has your organization ever tasked with gathering window event logs from a large number of endpoints? Or perhaps you are performing an incident response investigation and need to gather all the logs to a centralized location? While using agents such as filebeat or Splunk Unvirsal Forwarders is still highly recommended but perhaps you are unable to install those agents on every endpoint. his is where the WEC shines! As more and more agents are being installed on endpoints you start running into a multitude of issue such as peformance issues, agents just not function correctly, or even management approval to do so. 
 
 
 
