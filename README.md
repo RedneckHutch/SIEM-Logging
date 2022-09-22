@@ -3,7 +3,6 @@ SIEMs are great if you have the configured correctly. They are still only as goo
 
 Logging ultimately comes down to your organization and the use cases that will be implemented into your SIEM. We will focus on forming a great baseline which you can later modify to fit your exact needs. <br /><br />
 
-
 - [Window Event Collector](#Window-Event-Collector)
 - [Window Event Logging](#Window-Event-Logging)
 - [SYSMON-Logging](#SYSMON)
