@@ -1,10 +1,10 @@
 # Still in-progress
 - [x] SIEM-Logging
 - [ ] Window-Event-Collector
-- [ ]Window-Event-Logging
-- [ ]SYSMON-Logging
-- [ ]DNS-Logging
-- [ ]Resources
+- [ ] Window-Event-Logging
+- [ ] SYSMON-Logging
+- [ ] DNS-Logging
+- [ ] Resources
 # SIEM-Logging
 SIEMs are great if you have the configured correctly. They are still only as good as the data that you are putting into them. There are two things that you will typically see within an organization and they either log everything or hardly log anything within their SIEM. They may log everything because it is easy. They do not want to miss a critical log but there is a point when to much data is a bad thing. To much data can increase cost, slow down search times, and making it more difficult to locate useful data within the logs. This can unlimately cause fatigue on employees attempting to parse through the overwhelming amounts of data. While other organizations may not have the budget to increase their SIEM ingestion. The goal of this repository is to get you and your team on the right track.  <br />
 
