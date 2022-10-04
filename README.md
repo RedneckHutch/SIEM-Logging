@@ -1,7 +1,7 @@
 # SIEM-Logging
 SIEMs are great if you have the configured correctly. They are still only as good as the data that you are putting into them. There are two things that you will typically see within an organization. They either log everything or hardly log anything within their SIEM. They may log everything because it is easy. They do not want to miss a critical log. While other organizations may not have the budget to increase their SIEM ingestion. The goal of this repository is to get you and your team on the right track.  <br />
 
-Logging ultimately comes down to your organization and the use cases that will be implemented into your SIEM. We will focus on forming a great baseline which you can later modify to fit your exact needs. <br />
+Logging ultimately comes down to your organization and the use cases that will be implemented into your SIEM. Wether you a required for compliance reason, audit, or strictly security reasons. We will focus on forming a great baseline which you can later modify to fit your exact needs. It is highly recommended to following a framework such as [NIST](https://www.nist.gov/) Or even [Mitre Att&CK](https://attack.mitre.org/). <br />
 
 - [Window Event Collector](#Window-Event-Collector)
 - [Window Event Logging](#Window-Event-Logging)
@@ -16,7 +16,8 @@ Why should you use a window event collector? Has your organization ever been tas
 https://learn.microsoft.com/en-us/windows/win32/wec/windows-event-collector
 
 ## Window-Event-Logging
-Window event logging can get over looked very easly. Instead of recreating the wheel. I would highly recommend reviewing [The Windows Logging Cheat Sheet](https://www.malwarearchaeology.com/cheat-sheets) by [MalwareArchaeology](https://www.malwarearchaeology.com).<br />
+Window event logging can get over looked very easly. It also can seem like a daughting task for some. Instead of recreating the wheel. I would highly recommend reviewing [The Windows Logging Cheat Sheet](https://www.malwarearchaeology.com/cheat-sheets) by [MalwareArchaeology](https://www.malwarearchaeology.com).<br />
+
 List out the System audit policy<br />
 Command: AuditPol /get /category:* <br /><br />
 To set an item:<br />
@@ -25,6 +26,9 @@ Auditpol /set /category:"Account Management"<br />
 To set a subcategory individually:<br />
 Auditpol /set /subcategory:"Directory Service Access"<br />
 /success:disable /failure:disable<br />
+
+
+
 
 <table>
     <tr>
