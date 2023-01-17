@@ -29,10 +29,10 @@ https://learn.microsoft.com/en-us/windows/win32/wec/windows-event-collector
 ## Window-Event-Logging
 Window event logging can get over looked very easly. It also can seem like a daughting task for some. Instead of recreating the wheel. I would highly recommend reviewing [The Windows Logging Cheat Sheets](https://www.malwarearchaeology.com/cheat-sheets) by [MalwareArchaeology](https://www.malwarearchaeology.com).<br />
 
-List out the System audit policy<br />
-Command: AuditPol /get /category:* <br /><br />
+List out the System audit policy: AuditPol /get /category:* <br /><br />
 To set an item: Auditpol /set /category:"Account Management" /success:enable /failure:enable<br /><br />
 To set a subcategory individually: Auditpol /set /subcategory:"Directory Service Access" /success:disable /failure:disable<br />
+
 
 
 
