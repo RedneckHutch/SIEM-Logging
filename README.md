@@ -57,6 +57,20 @@ what you need. Resource from (www.malwarearchaeology.com)
     </tr>
 </table>
 
+
+## Powershell-Logging
+<table>
+    <tr>
+        <td>
+            <a href="https://www.mandiant.com/resources/blog/greater-visibility" target="_blank">Greater Visibility Through PowerShell Logging</a>
+        </td>
+        <td>
+            Mandiant is continuously investigating attacks that leverage PowerShell throughout all phases of the attack. A common issue we experience is a lack of available logging that adequately shows what actions the attacker performed using PowerShell. In those investigations, Mandiant routinely offers guidance on increasing PowerShell logging to provide investigators a detection mechanism for malicious activity and a historical record of how PowerShell was used on systems.
+        </td>
+    </tr>
+</table>
+
+
 ## SYSMON-Logging
 ## DNS-Logging
 ## Resources
