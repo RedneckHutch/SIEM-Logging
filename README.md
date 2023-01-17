@@ -12,6 +12,8 @@ SIEMs are great if you have the configured correctly. They are still only as goo
 
 Logging ultimately comes down to your organization and the use cases that will be implemented into your SIEM. Wether you a required for compliance reason, audit, or strictly security reasons. We will focus on forming a great baseline which you can later modify to fit your exact needs. It is highly recommended to following a framework such as [NIST](https://www.nist.gov/) Or even [Mitre Att&CK](https://attack.mitre.org/). <br />
 
+It is highly recommended to have a well rounded knowledge of GPO. <- Inprogress
+
 - [Window Event Collector](#Window-Event-Collector)
 - [Window Event Logging](#Window-Event-Logging)
 - [SYSMON-Logging](#SYSMON)
