@@ -31,12 +31,8 @@ Window event logging can get over looked very easly. It also can seem like a dau
 
 List out the System audit policy<br />
 Command: AuditPol /get /category:* <br /><br />
-To set an item:<br />
-Auditpol /set /category:"Account Management"<br />
-/success:enable /failure:enable<br /><br />
-To set a subcategory individually:<br />
-Auditpol /set /subcategory:"Directory Service Access"<br />
-/success:disable /failure:disable<br />
+To set an item: Auditpol /set /category:"Account Management" /success:enable /failure:enable<br /><br />
+To set a subcategory individually: Auditpol /set /subcategory:"Directory Service Access" /success:disable /failure:disable<br />
 
 
 
