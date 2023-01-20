@@ -1,6 +1,7 @@
 # Still in-progress
 - [x] SIEM-Logging
 - [ ] Window-Event-Collector
+- [ ] Syslog Server
 - [ ] Window-Event-Logging
 - [ ] Powershell-Logging
 - [ ] DNS-Logging
