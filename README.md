@@ -71,6 +71,9 @@ what you need. Resource from (www.malwarearchaeology.com)
 
 ## SYSMON-Logging
 ## DNS-Logging
+## SPAN Port Configuration
+
+
 ## Resources
 <table>
     <tr>
