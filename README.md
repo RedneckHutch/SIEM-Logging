@@ -21,14 +21,14 @@ It is highly recommended to have a well rounded knowledge of GPO. <- Inprogress
 - [SYSMON-Logging](#SYSMON)
 - [DNS Logging](#DNS-Logging)
 
-## Window-Event-Collector
+# Window-Event-Collector
 Window Event Collectors, also known as WEC allow administrators to get events from remote computers and store them in a local event log on the collector computer. The data that has been forwarded to the collector is saved on the collector as if they were on the orignating host. But additional information is added regarding event forwarding. It is possible to manually configure each remote computer to send logs to the WEC. But group policies are typically used to configure the remote computers to forward events to the WEC.<br /><br />
 
 Why should you use a window event collector? Has your organization ever been tasked with gathering window events from several endpoints? Or perhaps you are performing an incident response investigation and need to ingest all the logs to a centralized location? While using agents such as FileBeat or Splunk Universal Forwarders is still highly recommended, but perhaps you are not able to install those agents on every endpoint. Well this is where the WEC shines! As more and more agents are installed on endpoints you start running into a multitude of issues such as performance issues, agents just not functioning correctly, or even management approval to do so. <br />
 
 https://learn.microsoft.com/en-us/windows/win32/wec/windows-event-collector
 
-## Window-Event-Logging
+# Window-Event-Logging
 Window event logging can get over looked very easly. It also can seem like a daughting task for some. Instead of recreating the wheel. I would highly recommend reviewing [The Windows Logging Cheat Sheets](https://www.malwarearchaeology.com/cheat-sheets) by [MalwareArchaeology](https://www.malwarearchaeology.com).<br />
 
 List out the System audit policy: AuditPol /get /category:* <br /><br />
@@ -56,7 +56,7 @@ what you need. Resource from (www.malwarearchaeology.com)
 </table>
 
 
-## Powershell-Logging
+# Powershell-Logging
 <table>
     <tr>
         <td>
@@ -69,27 +69,27 @@ what you need. Resource from (www.malwarearchaeology.com)
 </table>
 
 
-## SYSMON-Logging
-## DNS-Logging
-## SPAN Port Configuration
-# Fortigate
+# SYSMON-Logging
+# DNS-Logging
+# SPAN Port Configuration
+## Fortigate
 
-The Switch Port Analyzer (SPAN) feature is now available for hardware switch interfaces on FortiGate models with built-in hardware switches (for example, the FortiGate-100D, 140D, and 200D etc.)
+The Switch Port Analyzer (SPAN) feature is now available for hardware switch interfaces on FortiGate models with built-in hardware switches (for example, the FortiGate-100D, 140D, and 200D etc.)<br />
 
-To enable SPAN on a hardware switch via the GUI, go to System > Network > Interfaces and edit a hardware switch interface.
+To enable SPAN on a hardware switch via the GUI, go to System > Network > Interfaces and edit a hardware switch interface.<br />
 
 By default the system may have a hardware switch interface called LAN. A new hardware switch interface can also be created.
 Select the SPAN check box, then select a source port from which traffic will be mirrored.
 Select the destination port to which the mirrored traffic is sent.
-Select to mirror traffic received, traffic sent, or both.
+Select to mirror traffic received, traffic sent, or both.<br />
 
-SPAN can also be enabled in the CLI:
-    config system virtual-switch
-    edit <port>
-    set span enable
-    set span-source-port <port>
-    set span-dest-port <port>
-    set span-direction {both | Tx | Rx}
+SPAN can also be enabled in the CLI:<br />
+    config system virtual-switch<br />
+    edit <port><br />
+    set span enable<br />
+    set span-source-port <port><br />
+    set span-dest-port <port><br />
+    set span-direction {both | Tx | Rx}<br />
     
 end
 end
