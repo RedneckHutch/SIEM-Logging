@@ -72,8 +72,27 @@ what you need. Resource from (www.malwarearchaeology.com)
 ## SYSMON-Logging
 ## DNS-Logging
 ## SPAN Port Configuration
+# Fortigate
 
+The Switch Port Analyzer (SPAN) feature is now available for hardware switch interfaces on FortiGate models with built-in hardware switches (for example, the FortiGate-100D, 140D, and 200D etc.)
 
+To enable SPAN on a hardware switch via the GUI, go to System > Network > Interfaces and edit a hardware switch interface.
+
+By default the system may have a hardware switch interface called LAN. A new hardware switch interface can also be created.
+Select the SPAN check box, then select a source port from which traffic will be mirrored.
+Select the destination port to which the mirrored traffic is sent.
+Select to mirror traffic received, traffic sent, or both.
+
+SPAN can also be enabled in the CLI:
+    config system virtual-switch
+    edit <port>
+    set span enable
+    set span-source-port <port>
+    set span-dest-port <port>
+    set span-direction {both | Tx | Rx}
+    
+end
+end
 ## Resources
 <table>
     <tr>
