@@ -85,14 +85,16 @@ Select to mirror traffic received, traffic sent, or both.<br />
 
 SPAN can also be enabled in the CLI:
 
-<code>config system virtual-switch
+```bash
+config system virtual-switch
 edit <port>
 set span enable
 set span-source-port <port>
 set span-dest-port <port>
 set span-direction {both | Tx | Rx}    
 end
-end</code>
+end
+```
 ## Resources
 <table>
     <tr>
