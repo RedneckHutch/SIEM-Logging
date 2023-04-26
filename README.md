@@ -83,7 +83,7 @@ Select the SPAN check box, then select a source port from which traffic will be 
 Select the destination port to which the mirrored traffic is sent.
 Select to mirror traffic received, traffic sent, or both.<br />
 
-SPAN can also be enabled in the CLI:<br />
+SPAN can also be enabled in the CLI:
     ```
     config system virtual-switch
     edit <port>
