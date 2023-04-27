@@ -85,7 +85,7 @@ what you need. Resource from (www.malwarearchaeology.com)
 
 ```monitor session session_number source interface interface_number```
 
-Replace session_number with the number of the monitoring session you want to create (e.g. 1), and interface_number with the number of the port you want to monitor (e.g. Gi1/0/1).
+   Replace session_number with the number of the monitoring session you want to create (e.g. 1), and interface_number with the number of the port you want to monitor    (e.g. Gi1/0/1).
 
 5. Identify the destination port where you want to send the monitored traffic by typing the command:
 ```monitor session session_number destination interface interface_number```
