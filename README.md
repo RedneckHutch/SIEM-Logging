@@ -72,6 +72,39 @@ what you need. Resource from (www.malwarearchaeology.com)
 # SYSMON-Logging
 # DNS-Logging
 # SPAN Port Configuration
+## Cisco
+Log in to the switch using a console or terminal connection.
+
+Enter privileged EXEC mode by typing the command:
+```enable```
+
+Enter global configuration mode by typing the command:
+
+```configure terminal```
+
+Identify the source port that you want to monitor by typing the command:
+
+```monitor session session_number source interface interface_number```
+
+Replace session_number with the number of the monitoring session you want to create (e.g. 1), and interface_number with the number of the port you want to monitor (e.g. Gi1/0/1).
+
+Identify the destination port where you want to send the monitored traffic by typing the command:
+
+```monitor session session_number destination interface interface_number```
+
+Replace session_number with the number of the monitoring session you want to create (e.g. 1), and interface_number with the number of the port you want to use as the destination (e.g. Gi1/0/2).
+
+Verify your configuration by typing the command:
+
+```show monitor session session_number```
+
+This command displays the details of the monitoring session you just created.
+
+Save your configuration by typing the command:
+
+```copy running-config startup-config```
+
+This command saves your configuration to non-volatile memory, so it persists across reboots.
 ## Fortigate
 
 The Switch Port Analyzer (SPAN) feature is now available for hardware switch interfaces on FortiGate models with built-in hardware switches (for example, the FortiGate-100D, 140D, and 200D etc.)<br />
