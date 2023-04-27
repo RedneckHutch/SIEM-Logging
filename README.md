@@ -81,7 +81,7 @@ what you need. Resource from (www.malwarearchaeology.com)
 3. Enter global configuration mode by typing the command:
 ```configure terminal```
 
-4.Identify the source port that you want to monitor by typing the command:
+4. Identify the source port that you want to monitor by typing the command:
 ```monitor session session_number source interface interface_number```
 
 Replace session_number with the number of the monitoring session you want to create (e.g. 1), and interface_number with the number of the port you want to monitor (e.g. Gi1/0/1).
