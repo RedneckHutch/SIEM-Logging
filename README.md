@@ -94,12 +94,12 @@ what you need. Resource from (www.malwarearchaeology.com)
 6. Verify your configuration by typing the command:
 ```show monitor session session_number```
 
-This command displays the details of the monitoring session you just created.
+    This command displays the details of the monitoring session you just created.
 
 7. Save your configuration by typing the command:
 ```copy running-config startup-config```
 
-This command saves your configuration to non-volatile memory, so it persists across reboots.
+    This command saves your configuration to non-volatile memory, so it persists across reboots.
 
 ## Fortigate
 
