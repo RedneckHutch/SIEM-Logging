@@ -74,7 +74,6 @@ what you need. Resource from (www.malwarearchaeology.com)
 # SPAN Port Configuration
 ## Cisco
 1. Log in to the switch using a console or terminal connection.
-
 2. Enter privileged EXEC mode by typing the command:
 ```enable```
 
