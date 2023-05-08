@@ -34,7 +34,7 @@ Window event logging can get over looked very easly. It also can seem like a dau
 List out the System audit policy: AuditPol /get /category:* <br /><br />
 To set an item: Auditpol /set /category:"Account Management" /success:enable /failure:enable<br /><br />
 To set a subcategory individually: Auditpol /set /subcategory:"Directory Service Access" /success:disable /failure:disable<br />
-Running on a remote host Invoke-Command -ComputerName <RemoteComputerName> -ScriptBlock {AuditPol /get /category:*}br />
+Running on a remote host Invoke-Command -ComputerName <RemoteComputerName> -ScriptBlock {AuditPol /get /category:*}<br />
 
 
 
