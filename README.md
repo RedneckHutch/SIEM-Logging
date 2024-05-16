@@ -71,6 +71,8 @@ what you need. Resource from (www.malwarearchaeology.com)
 
 
 # SYSMON-Logging
+https://cybergladius.com/automated-sysmon-deployment
+
 # DNS-Logging
 # SPAN Port Configuration
 ## Cisco
